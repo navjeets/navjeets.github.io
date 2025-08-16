@@ -2,15 +2,45 @@
   <head>
     <script>
       function onClick() {
-        window.open("https://secure.chase.com/web/auth/nav?navKey=requestChaseMyHomeApplyCenterWithSourceCode&hlaRef=&sourceCode=WHMDEF", "_self");
+        window.open(
+          "https://secure.chase.com/web/auth/nav?navKey=requestChaseMyHomeApplyCenterWithSourceCode&hlaRef=&sourceCode=WHMDEF",
+          "_self"
+        );
       }
     </script>
   </head>
   <body>
-    <input type='button' onclick='location.href="https\://secure.chase.com/web/auth/nav?navKey=requestChaseMyHomeApplyCenterWithSourceCode&hlaRef=&sourceCode=WHMDEF";' value="Apply location href"/>
-    <br><br><br>
-    <input type='button' onclick='onClick()' value="Apply window open"/>
-    <br><br><br>
-    <a href="https://secure.chase.com/web/auth/nav?navKey=requestChaseMyHomeApplyCenterWithSourceCode&hlaRef=&sourceCode=WHMDEF">Apply link</a>
+    <input
+      type="button"
+      onclick='location.href="https\://secure.chase.com/web/auth/nav?navKey=requestChaseMyHomeApplyCenterWithSourceCode&hlaRef=&sourceCode=WHMDEF";'
+      value="Apply location href"
+    />
+    <br /><br /><br />
+    <input type="button" onclick="onClick()" value="Apply window open" />
+    <br /><br /><br />
+    <a
+      href="https://secure.chase.com/web/auth/nav?navKey=requestChaseMyHomeApplyCenterWithSourceCode&hlaRef=&sourceCode=WHMDEF"
+      >Apply link</a
+    >
+    <br /><br /><br />
+    <label for="wholenumber">Whole number:</label>
+    <input
+      type="tel"
+      inputmode="numeric"
+      pattern="[0-9]*"
+      id="wholenumber"
+      name="wholenumber"
+      placeholder="Enter a whole number"
+    />
+    <br /><br /><br />
+    <label for="decimalnumber">Decimal number:</label>
+    <input
+      type="number"
+      inputmode="decimal"
+      step ="any"
+      id="decimalnumber"
+      name="decimalnumber"
+      placeholder="Enter a decimal number"
+    />
   </body>
 </html>
