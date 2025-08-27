@@ -33,10 +33,11 @@
       placeholder="Enter a whole number"
     />
     <br /><br /><br />
-    <label for="wholenumber1">Whole number (type=number):</label>
+    <label for="wholenumber1">Whole number (inputmode=numeric):</label>
     <input
-      type="number"
+      type="text"
       inputmode="numeric"
+      pattern="[0-9,]*"
       id="wholenumber1"
       name="wholenumber1"
       placeholder="Enter a whole number"
@@ -44,8 +45,9 @@
     <br /><br /><br />
     <label for="decimalnumber">Decimal number:</label>
     <input
-      type="number"
+      type="text"
       inputmode="decimal"
+      pattern="[0-9.,]*"
       min="0"
       id="decimalnumber"
       name="decimalnumber"
