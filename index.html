@@ -1,28 +1,28 @@
 <html>
   <head>
-    <!--<script>
-      function onClick() {
+    <script>
+      function onClick(url) {
         window.open(
-          "https://secure.chase.com/web/auth/nav?navKey=requestChaseMyHomeApplyCenterWithSourceCode&hlaRef=&sourceCode=WHMDEF",
+          url,
           "_self"
         );
       }
-    </script>-->
+    </script>
   </head>
   <body>
-    <!--<input
+    <input
       type="button"
-      onclick='location.href="https\://secure.chase.com/web/auth/nav?navKey=requestChaseMyHomeApplyCenterWithSourceCode&hlaRef=&sourceCode=WHMDEF";'
-      value="Apply location href"
+      onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=sdiAlwaysOnOffer')"
+      value="SDI window open"
     />
     <br /><br /><br />
-    <input type="button" onclick="onClick()" value="Apply window open" />
+    <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestAccountFundingHub')" value="Hub window open" />
     <br /><br /><br />
     <a
       href="https://secure.chase.com/web/auth/nav?navKey=requestChaseMyHomeApplyCenterWithSourceCode&hlaRef=&sourceCode=WHMDEF"
       >Apply link</a
     >
-    <br /><br /><br />-->
+    <br /><br /><br />
     <label for="wholenumber">Phone number (type=text,inputmode=tel):</label>
     <input
       type="text"
