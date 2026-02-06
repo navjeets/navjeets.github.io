@@ -1,68 +1,89 @@
 <html>
-  <head>
-    <script>
-      function onClick(url) {
-        window.open(
-          url,
-          "_self"
-        );
-      }
-    </script>
-  </head>
-  <body>
-    <input
-      type="button"
-      onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestCheckingAndSavingsOrigination')"
-      value="SDI window open"
-    />
-    <br /><br /><br />
-    <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestAccountFundingHub')" value="Hub window open" />
-    <br /><br /><br />
-    <a
-      href="https://secure.chase.com/web/auth/nav?navKey=requestChaseMyHomeApplyCenterWithSourceCode&hlaRef=&sourceCode=WHMDEF"
-      >Apply link</a
-    >
-    <br /><br /><br />
-    <label for="wholenumber">Phone number (type=text,inputmode=tel):</label>
-    <input
-      type="text"
-      inputmode="tel"
-      pattern="[0-9]*"
-      id="wholenumber"
-      name="wholenumber"
-      placeholder="Enter a whole number"
-    />
-    <br /><br /><br />
-    <label for="wholenumber1">Whole number (type=text,inputmode=numeric):</label>
-    <input
-      type="text"
-      inputmode="numeric"
-      pattern="[0-9,]*"
-      id="wholenumber1"
-      name="wholenumber1"
-      placeholder="Enter a whole number"
-    />
-    <br /><br /><br />
-    <label for="decimalnumber">Decimal number (type=text,inputmode=decimal):</label>
-    <input
-      type="text"
-      inputmode="decimal"
-      pattern="[0-9.,]*"
-      min="0"
-      id="decimalnumber"
-      name="decimalnumber"
-      placeholder="Enter a decimal number"
-    />
-    <br /><br /><br />
-    <label for="pin">Pin code (type=password,inputmode=numeric):</label>
-    <input
-      type="password"
-      inputmode="numeric"
-      pattern="[0-9]*"
-      autocomplete="off"
-      id="pin"
-      name="pin"
-      placeholder="Enter a pin code"
-    />
-  </body>
+
+<head>
+  <script>
+    function onClick(url) {
+      window.open(
+        url,
+        "_self"
+      );
+    }
+  </script>
+</head>
+
+<body>
+  <br /><br /><br />
+  <input type="button"
+    onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestCheckingAndSavingsOrigination')"
+    value="requestCheckingAndSavingsOrigination -> 010390-010111" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestTotalCheckingGraduation')"
+    value="requestTotalCheckingGraduation -> 010390G" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestTotalChecking')"
+    value="requestTotalChecking -> 010390" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestSecureCheckingGraduation')"
+    value="requestSecureCheckingGraduation -> 010427G" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestSecureChecking')"
+    value="requestSecureChecking -> 010427" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestSavings')"
+    value="requestSavings -> 010111" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestSapphireChecking')"
+    value="requestSapphireChecking -> 010102" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestPrivateClientSavings')"
+    value="requestPrivateClientSavings -> 010341" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestPrivateClientChecking')"
+    value="requestPrivateClientChecking -> 010103" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestPremierSaving')"
+    value="requestPremierSaving -> 010418" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestPremierPlusCheckingAndPremierSavings')"
+    value="requestPremierPlusCheckingAndPremierSavings -> 010401-010418" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestPremierPlusChecking')"
+    value="requestPremierPlusChecking -> 010401" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestFirstChecking')"
+    value="requestFirstChecking -> 010429" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestCollegeCheckingGraduation')"
+    value="requestCollegeCheckingGraduation - 010108G" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestCollegeCheckingAndSavings')"
+    value="requestCollegeCheckingAndSavings -> 010108-010111" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestCollegeChecking')"
+    value="requestCollegeChecking -> 010108" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestCertificateOfDepositOrigination')"
+    value="requestCertificateOfDepositOrigination -> 030CDS" />
+  <br /><br /><br />
+  <input type="button" onclick="onClick('https://secure.chase.com/web/auth/nav?navKey=requestAccountFundingHub')"
+    value="requestAccountFundingHub" />
+  <br /><br /><br />
+  <br /><br /><br />
+  <label for="wholenumber">Phone number (type=text,inputmode=tel):</label>
+  <input type="text" inputmode="tel" pattern="[0-9]*" id="wholenumber" name="wholenumber"
+    placeholder="Enter a whole number" />
+  <br /><br /><br />
+  <label for="wholenumber1">Whole number (type=text,inputmode=numeric):</label>
+  <input type="text" inputmode="numeric" pattern="[0-9,]*" id="wholenumber1" name="wholenumber1"
+    placeholder="Enter a whole number" />
+  <br /><br /><br />
+  <label for="decimalnumber">Decimal number (type=text,inputmode=decimal):</label>
+  <input type="text" inputmode="decimal" pattern="[0-9.,]*" min="0" id="decimalnumber" name="decimalnumber"
+    placeholder="Enter a decimal number" />
+  <br /><br /><br />
+  <label for="pin">Pin code (type=password,inputmode=numeric):</label>
+  <input type="password" inputmode="numeric" pattern="[0-9]*" autocomplete="off" id="pin" name="pin"
+    placeholder="Enter a pin code" />
+</body>
+
 </html>
